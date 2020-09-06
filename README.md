@@ -45,7 +45,7 @@ This auto-complete plugin covers __1000+__ Functions and Constants available in 
 
 * The data is based upon GIMP 2.10.20.01.
 * All deprecated functions have been filtered out.
-* A Scheme version of this plugin is available here: https://github.com/civAnimal/gimp_autocomplete_scheme/
+* A Scheme version of this plugin is available here: https://github.com/civAnimal/gimp_autocomplete_scheme
 * This plugin is released under ... GNU General Public License (v3).
 
 
