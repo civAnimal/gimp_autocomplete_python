@@ -3,7 +3,6 @@
 This auto-complete plugin covers __1000+__ Functions and Constants available in GIMP's Plugin API. All these functions and constants are now just a few keys away. Simply type some letters of the function and press `Enter`. The full function name, qualified by module identifier `pdb`, together with arguments(if any) shall appear at cursor location. Imagine how much typing that would save you.
 
 
-
 ### Examples
 
  Text Entered  |  Result
