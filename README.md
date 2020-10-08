@@ -1,6 +1,6 @@
 ## GIMP Auto-Complete Python API for Sublime Text
 
-This auto-complete plugin covers __1000+__ Functions and Constants available in GIMP's Plugin API. All these functions and constants are now just a few keys away. Simply type some letters of the function and press `Enter`. The full function name, qualified by module identifier `pdb`, together with arguments(if any) shall appear at cursor location. Imagine how much typing that would save you.
+This auto-complete plugin covers __1000+__ Functions and Constants available in GIMP's Plugin API. All these functions and constants are now just a few keys away. Simply type some letters of a function and press `Enter`. The full function name, qualified by module identifier `pdb`, together with arguments (if any) shall appear at cursor location. Imagine how much typing that would save you.
 
 
 ### Examples
@@ -19,8 +19,10 @@ This auto-complete plugin covers __1000+__ Functions and Constants available in 
  `fstcm`       | `pdb.script_fu_set_cmap(run_mode, image, drawable, palette)`
  `fba`         | `pdb.script_fu_blend_anim(run_mode, image, drawable, value, value, toggle)`
  `cpfi`        | `PF_IMAGE`
- `cpfd`        | `PF_DRAWABLE`
+ `cpfdr`       | `PF_DRAWABLE`
  `crgba`       | `RGBA_IMAGE`
+ `clov`        | `LAYER_MODE_OVERLAY`
+ `clmul`       | `LAYER_MODE_MULTIPLY_LEGACY`
  `crnoi`       | `RUN_NONINTERACTIVE`
  `ctr`         | `TRUE`
 
@@ -30,6 +32,7 @@ This auto-complete plugin covers __1000+__ Functions and Constants available in 
 * Remember, `f` is for ... Functions, and `c` is for ... Constants.
 * You don't need to type `pdb` or `.` or any of the prefixes, like `gimp`, `python_fu`, `script_fu`, etc. Just type a few letters from the "true name" of a function/constant. Observe the patterns used in examples.
 * You could use `Tab` and `Shift+Tab` to cycle forward and backward through arguments.
+* If you accidentally invoke an undesirable completion, performing a simple Undo `ctrl + z` might be a better fix, rather than manually deleting the unwanted bits.
 
 
 ### Installation
@@ -42,7 +45,7 @@ This auto-complete plugin covers __1000+__ Functions and Constants available in 
 
 ### Notes
 
-* The data is based upon GIMP 2.10.20.01.
+* The data is based upon GIMP 2.10.20 r1.
 * All deprecated functions have been filtered out.
 * A Scheme version of this plugin is available here: https://github.com/civAnimal/gimp_autocomplete_scheme
 * This plugin is released under ... GNU General Public License (v3).
