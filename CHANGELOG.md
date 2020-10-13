@@ -1,6 +1,12 @@
 ## GIMP Auto-Complete Python API for Sublime Text ... CHANGELOG
 
 
+## 1.1.0
+
+* Added simple completion hints.
+* Other minor code-changes.
+
+
 ## 1.0.2
 
 * Added _Block-Form_ completion for `register` function; available via trigger: `fregister_block`.
