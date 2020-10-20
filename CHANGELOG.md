@@ -1,6 +1,11 @@
 ## GIMP Auto-Complete Python API for Sublime Text ... CHANGELOG
 
 
+## 1.1.1
+
+* Fixed missing parameter from `register` function.
+
+
 ## 1.1.0
 
 * Added simple completion hints.
