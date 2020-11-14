@@ -1,6 +1,11 @@
 ## GIMP Auto-Complete Python API for Sublime Text ... CHANGELOG
 
 
+## 2.0.0
+
+* The redundant `run_mode` parameter, erroneously reported (in over 300 functions) in official GIMP api, has been removed.
+
+
 ## 1.1.1
 
 * Fixed missing parameter from `register` function.

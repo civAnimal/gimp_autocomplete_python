@@ -12,18 +12,18 @@ This auto-complete plugin covers __1000+__ Functions and Constants available in 
  `fthwl`       | `pdb.gimp_image_thaw_layers(image)`
  `fgactl`      | `pdb.gimp_image_get_active_layer(image)`
  `fitsn`       | `pdb.gimp_item_set_name(item, name)`
- `fgau`        | `pdb.plug_in_gauss(run_mode, image, drawable, horizontal, vertical, method)`
- `fcub`        | `pdb.plug_in_cubism(run_mode, image, drawable, tile_size, tile_saturation, bg_color)`
- `fgsa`        | `pdb.python_fu_gradient_save_as_css(run_mode, gradient, file_name)`
- `ffo`         | `pdb.python_fu_foggify(run_mode, image, drawable, name, colour, turbulence, opacity)`
- `fstcm`       | `pdb.script_fu_set_cmap(run_mode, image, drawable, palette)`
- `fba`         | `pdb.script_fu_blend_anim(run_mode, image, drawable, value, value, toggle)`
+ `fgau`        | `pdb.plug_in_gauss(image, drawable, horizontal, vertical, method)`
+ `fcub`        | `pdb.plug_in_cubism(image, drawable, tile_size, tile_saturation, bg_color)`
+ `fgsa`        | `pdb.python_fu_gradient_save_as_css(gradient, file_name)`
+ `ffo`         | `pdb.python_fu_foggify(image, drawable, name, colour, turbulence, opacity)`
+ `fstcm`       | `pdb.script_fu_set_cmap(image, drawable, palette)`
+ `fba`         | `pdb.script_fu_blend_anim(image, drawable, value, value, toggle)`
  `cpfi`        | `PF_IMAGE`
  `cpfdr`       | `PF_DRAWABLE`
  `crgba`       | `RGBA_IMAGE`
  `clov`        | `LAYER_MODE_OVERLAY`
+ `clinb`       | `LAYER_MODE_LINEAR_BURN`
  `clmul`       | `LAYER_MODE_MULTIPLY_LEGACY`
- `crnoi`       | `RUN_NONINTERACTIVE`
  `ctr`         | `TRUE`
 
 
